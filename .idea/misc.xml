@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yadav/.gradle/caches/transforms-3/43711b72eaf2f529e5b9b1576380fb27/transformed/appcompat-1.3.1/res/layout/support_simple_spinner_dropdown_item.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/background.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/gradientback.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_arrow_right_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_download_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_mic_241.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_mic_none_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_phonelink_lock_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_remove_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.2453125" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/activity_downloads.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/activity_history.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/activity_seaching.xml" value="0.264" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/activity_search.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/custom_dialog.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/dialog_more.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/fragment_addnew.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/fragment_blank.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/fragment_home.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/fragment_notification.xml" value="0.2140625" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/fragment_search.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/fragment_shorts.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/layout_history_item.xml" value="0.4" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/sample_download_item.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/sample_gridview.xml" value="0.42759961127308066" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/sample_news_item.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/menu/menus.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/menu/searching_menu.xml" value="0.22916666666666666" />
+        <entry key="..\:/Windows.old/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/background.xml" value="0.125" />
+        <entry key="..\:/Windows.old/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/drawable/ic_baseline_account_balance_wallet_24.xml" value="0.125" />
+        <entry key="..\:/Windows.old/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Windows.old/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/activity_wallet.xml" value="0.264" />
+        <entry key="..\:/Windows.old/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/fragment_home.xml" value="0.23229166666666667" />
+        <entry key="..\:/Windows.old/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/fragment_profile.xml" value="0.23229166666666667" />
+        <entry key="..\:/Windows.old/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/layout/fragment_shorts.xml" value="0.23229166666666667" />
+        <entry key="..\:/Windows.old/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/menu/menus.xml" value="0.23229166666666667" />
+        <entry key="..\:/Windows.old/Users/yadav/AndroidStudioProjects/Firus/app/src/main/res/menu/searching_menu.xml" value="0.23229166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

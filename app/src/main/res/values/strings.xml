@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Firus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">HOME</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">0cGhOdA9sa27bJotMmk1btQn85qk6k6kVsa5z8MV</string>
+    <string name="back4app_client_key">urz8MYNaTW4bZsGUiHvAcjP5Ijdu5YPR0HGPD3xt</string>
+
+</resources>

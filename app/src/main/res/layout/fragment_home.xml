@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:id="@+id/lt_out"
+    tools:context=".fragments.Home">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/titleimg" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_marginTop="-20dp"
+            app:cardCornerRadius="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic__534129544"
+                    tools:ignore="RtlHardcoded" />
+                <EditText
+                    android:id="@+id/edit_search"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="Search Everything"
+                    android:textColorHint="@color/txt"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp"
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="5dp"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/voice_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/ic_baseline_mic_241"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:numColumns="4"
+            android:visibility="gone"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/newslinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_discovers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Discovers"
+            tools:ignore="HardcodedText" />
+        <HorizontalScrollView
+            android:id="@+id/chipgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_headlines"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:chipBackgroundColor="@color/txt"
+                    app:chipStrokeWidth="0.5dp"
+                    app:chipStrokeColor="@color/txt"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Top Headlines"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_entertainment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:chipBackgroundColor="@color/background"
+                    app:chipStrokeWidth="0.5dp"
+                    app:chipStrokeColor="@color/txt"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Entertainment"/>
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_sports"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:chipBackgroundColor="@color/background"
+                    app:chipStrokeWidth="0.5dp"
+                    app:chipStrokeColor="@color/txt"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Sports"/>
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_technology"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:chipBackgroundColor="@color/background"
+                    app:chipStrokeWidth="0.5dp"
+                    app:chipStrokeColor="@color/txt"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Technology"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/news_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/background"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_remove_24" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_remove_24" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_remove_24" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#666666"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="  New Tab"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_add_circle_outline_24"
+        android:gravity="center_vertical"
+        android:drawableRight="@drawable/ic_baseline_arrow_right_24"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="  New Private Tab"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_add_circle_outline_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_right_24"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#666666"/>
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="  History"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_baseline_history_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_right_24"/>
+    <TextView
+        android:id="@+id/bookmark"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="  Bookmarks"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_star_rate_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_right_24"/>
+    <TextView
+        android:id="@+id/downloads"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="  Downloads"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_download_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_right_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="  Settings"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:drawableLeft="@drawable/ic_baseline_settings_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_right_24"/>
+
+</LinearLayout>

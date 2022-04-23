@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "119973757921",
+    "project_id": "firus-a3b37",
+    "storage_bucket": "firus-a3b37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119973757921:android:26560aaf741d9ae71848a0",
+        "android_client_info": {
+          "package_name": "com.example.firus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119973757921-lrofpa15qpacv2o6hadpem0vjjacunm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBLiXetVrDUY4Za0qk_K-lDbVFSvNGlSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119973757921-lrofpa15qpacv2o6hadpem0vjjacunm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
